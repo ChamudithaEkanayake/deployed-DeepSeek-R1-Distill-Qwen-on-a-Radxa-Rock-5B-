@@ -106,7 +106,7 @@ cd /data/demo_Linux_aarch64
 ```bash
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:Yourpath/project_LLM/rkllm_server/rkllm_server/lib
 ```
-> **Note:** Verify that `librkllmrt.so` exists at `/home/radxa/Downloads/rknn-llm/examples/rkllm_server_demo/rkllm_server/lib/librkllmrt.so`. If not, check your RKNN installation.
+> **Note:** Verify that `librkllmrt.so` exists at `Yourpath/project_LLM/rkllm_server/rkllm_server/lib/librkllmrt.so`. If not, Download [Download](https://github.com/ChamudithaEkanayake/deployed-DeepSeek-R1-Distill-Qwen-on-a-Radxa-Rock-5B-/blob/main/project_LLM/rkllm_server/rkllm_server/lib/librkllmrt.so)
 
 2. (Optional) Lock CPU/GPU frequencies for stable performance:
 
