@@ -50,7 +50,7 @@ Desktop/
 Go to deploy folder and create build folder:
 
 ```bash
-cd project_LLM//DeepSeek-R1-Distill-Qwen-1.5B/deploy
+cd project_LLM/DeepSeek-R1-Distill-Qwen-1.5B/deploy
 mkdir build
 cd build
 ```
@@ -104,8 +104,9 @@ cd /data/demo_Linux_aarch64
 1. Set the library path:
 
 ```bash
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/radxa/Downloads/rknn-llm/examples/rkllm_server_demo/rkllm_server/lib
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:Yourpath/project_LLM/rkllm_server/rkllm_server/lib
 ```
+> **Note:** Verify that `librkllmrt.so` exists at `/home/radxa/Downloads/rknn-llm/examples/rkllm_server_demo/rkllm_server/lib/librkllmrt.so`. If not, check your RKNN installation.
 
 2. (Optional) Lock CPU/GPU frequencies for stable performance:
 
@@ -116,7 +117,7 @@ sh fix_freq_rk3588.sh
 3. Run the demo:
 
 ```bash
-cd project_LLM//DeepSeek-R1-Distill-Qwen-1.5B/deploy/build
+cd project_LLM/DeepSeek-R1-Distill-Qwen-1.5B/deploy/build
 export RKLLM_LOG_LEVEL=1
 ./llm_demo DeepSeek-R1-Distill-Qwen-1.5B_W8A8_RK3588.rkllm 2048 4096
 ```
