@@ -1,0 +1,7 @@
+/home/radxa/Downloads/rknn-llm/examples/DeepSeek-R1-Distill-Qwen-1.5B_Demo/deploy/build/CMakeFiles/llm_demo.dir
+/home/radxa/Downloads/rknn-llm/examples/DeepSeek-R1-Distill-Qwen-1.5B_Demo/deploy/build/CMakeFiles/edit_cache.dir
+/home/radxa/Downloads/rknn-llm/examples/DeepSeek-R1-Distill-Qwen-1.5B_Demo/deploy/build/CMakeFiles/rebuild_cache.dir
+/home/radxa/Downloads/rknn-llm/examples/DeepSeek-R1-Distill-Qwen-1.5B_Demo/deploy/build/CMakeFiles/list_install_components.dir
+/home/radxa/Downloads/rknn-llm/examples/DeepSeek-R1-Distill-Qwen-1.5B_Demo/deploy/build/CMakeFiles/install.dir
+/home/radxa/Downloads/rknn-llm/examples/DeepSeek-R1-Distill-Qwen-1.5B_Demo/deploy/build/CMakeFiles/install/local.dir
+/home/radxa/Downloads/rknn-llm/examples/DeepSeek-R1-Distill-Qwen-1.5B_Demo/deploy/build/CMakeFiles/install/strip.dir
