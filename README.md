@@ -114,14 +114,14 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:Yourpath/project_LLM/rkllm_server/rkllm_
 sh fix_freq_rk3588.sh
 ```
 
-3. Run the demo:
+3. Run the LLM:
 
 ```bash
 cd project_LLM/DeepSeek-R1-Distill-Qwen-1.5B/deploy/build
 export RKLLM_LOG_LEVEL=1
 ./llm_demo DeepSeek-R1-Distill-Qwen-1.5B_W8A8_RK3588.rkllm 2048 4096
 ```
-
+- copy rkllm model to build folder
 - `2048` = max new tokens to generate
 - `4096` = max context length
 
