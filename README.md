@@ -50,7 +50,7 @@ Desktop/
 Go to deploy folder and create build folder:
 
 ```bash
-cd rknn-llm/examples/DeepSeek-R1-Distill-Qwen-1.5B_Demo/deploy
+cd project_LLM//DeepSeek-R1-Distill-Qwen-1.5B/deploy
 mkdir build
 cd build
 ```
