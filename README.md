@@ -1,6 +1,6 @@
 # DeepSeek-R1 Distill LLM Deployment on Radxa Rock 5B+
 
-This documentation provides step-by-step instructions to **deploy and use the DeepSeek-R1 Distill Qwen-1.5B model** on a **Radxa Rock 5B+** board. The guide is organized into **Local Deployment** (direct execution on board) and **Server Deployment** (Flask server with client).
+This documentation provides step-by-step instructions to **deploy and use the DeepSeek-R1 Distill Qwen-1.5B rkllm model** on a **Radxa Rock 5B+** board. The guide is organized into **Local Deployment** (direct execution on board) and **Server Deployment** (Flask server with client).
 <br><br>
 *Developed by Chamuditha Ekanayake | GitHub: [ChamudithaEkanayake](https://github.com/ChamudithaEkanayake) | LinkedIn: [Chamuditha Ekanayake](https://www.linkedin.com/in/chamuditha-ekanayake-8b37602b6/)*
 
