@@ -35,13 +35,13 @@ Desktop/
 │   │   └── export/
 │   │       └── generate_data_quant.py
 │   └── rkllm_server/
-│       │   ├── rkllm_server
-│       │   │   ├── lib
-│       │   │   │   ├── librkllmrt.so
-│       │   ├── fix_freq_rk3588.sh
-│       │   ├── gradio_server.py
-│       │   ├── flask_server.py
-│       │   └── build_rkllm_server_flask.sh
+│   |   │   ├── rkllm_server
+│   |   │   │   ├── lib
+│   |   │   │   │   ├── librkllmrt.so
+│   |   │   ├── fix_freq_rk3588.sh
+│   |   │   ├── gradio_server.py
+│   |   │   ├── flask_server.py
+│   |   │   └── build_rkllm_server_flask.sh
 │   └── rkllm_server_workshop
 ```
 
@@ -240,7 +240,7 @@ sudo kill -9 <process_ID>
 
 ---
 
-This README is designed so that **any beginner can set up, test, and deploy the model** on Radxa Rock 5B+. For the latest updates, refer to the official RKNN documentation.
+This README is designed so that **any beginner can set up, test, and deploy the model** on Radxa Rock 5B+. For the latest updates, refer to the official RKLLM documentation.
 
 ---
 
